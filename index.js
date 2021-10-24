@@ -1,10 +1,10 @@
-const links = {
-  github: 'maykbrito',
-  youtube: 'maykbrito',
-  facebook: 'maykbrito',
-  instagram: 'maykbrito',
-  twitter: 'maykbrito'
-}
+// const links = {
+//   github: 'maykbrito',
+//   youtube: 'maykbrito',
+//   facebook: 'maykbrito',
+//   instagram: 'maykbrito',
+//   twitter: 'maykbrito'
+// }
 
 function changeSocialMediaLinks() {
   // document.getElementById('userName').textContent = 'Olivia'
