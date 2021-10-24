@@ -10,14 +10,13 @@ function changeSocialMediaLinks() {
   // document.getElementById('userName').textContent = 'Olivia'
   // pode ser resumido usando apenas o nome da ID
 
-  userName.textContent = 'Marcelo'
+  // userName.textContent = 'Marcelo'
 
   for (let li of socialMedia.children) {
     const social = li.getAttribute('class')
 
     li.children[0].href = `https://${social}.com/${links[social]}`
 
-    alert(li.children[0].href)
   }
 }
 
